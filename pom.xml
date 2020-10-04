@@ -39,6 +39,7 @@
 		<maven-dockerfile.version>1.3.6</maven-dockerfile.version>
 		<maven-release.version>2.5.3</maven-release.version>
 		<maven-surefire.version>3.0.0-M1</maven-surefire.version>
+		<jaxb-api.version>2.3.0</jaxb-api.version>
 	</properties>
 
 	<dependencies>
@@ -144,6 +145,11 @@
 				<groupId>org.apache.commons</groupId>
 				<artifactId>commons-lang3</artifactId>
 				<version>${commons-lang3-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>javax.xml.bind</groupId>
+				<artifactId>jaxb-api</artifactId>
+				<version>${jaxb-api.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
